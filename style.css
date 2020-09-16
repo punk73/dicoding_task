@@ -1,0 +1,59 @@
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+}
+
+.flex-col {
+  display: flex;
+}
+
+main {
+  border: solid 1px black;
+  margin: 10px auto;
+  padding: 20px 10px 10px 0;
+}
+
+.content {
+  border: solid 2px red;
+  margin: 0px 10px 0px 10px;
+}
+
+article {
+  margin: 10px;
+  background-color: honeydew;
+}
+
+aside {
+  border: 2px solid black;
+}
