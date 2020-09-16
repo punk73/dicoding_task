@@ -39,21 +39,35 @@ footer {
 }
 
 main {
-  border: solid 1px black;
+  /* border: solid 1px black; */
   margin: 10px auto;
   padding: 20px 10px 10px 0;
+  background-color: #e4f9ff;
+  border: solid 1px #12cad6;
 }
 
 .content {
-  border: solid 2px red;
+  /* border: solid 2px red; */
   margin: 0px 10px 0px 10px;
 }
 
 article {
   margin: 10px;
-  background-color: honeydew;
+  /* background-color: #a3d2ca; */
+}
+
+.img-wrapper {
+}
+
+.img {
+  margin: auto;
+  width: 100%;
+  height: 25%;
 }
 
 aside {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  background-color: #12cad6;
+  color: white;
+  padding: 10px;
 }
