@@ -22,13 +22,24 @@
   <body>
     <main class="flex-col">
       <div class="content">
-        <article class="flex-row">
+        
+        <div class="flex-row">
+          <label for="combo">Menu : </label>
+          <select name="combo" id="combo" class="combo">
+            <option value="biodata">Biodata</option>
+            <option value="hobi">Hobi</option>
+            <option value="karir">Karir</option>
+          </select>
+        </div>
+
+        <article class="flex-row" id="article_1">
           Halo, selamat datang. Saya Teguh Setiawan, tuan rumah blog ini. jika
           berkenan, tolong tinggalkan kesan-kesan untuk saya melalui form di
           bawah ini. terima kasih.
         </article>
 
         <article class="flex-row">
+          ini artikel tambahan biar seolah - olah ada konten.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
           eveniet, nesciunt totam possimus quibusdam quisquam mollitia
           voluptatum eos odio, quia quaerat in deleniti atque facilis aut illum
@@ -46,6 +57,7 @@
         </p>
       </aside>
     </main>
+    <script src="app.js"></script>
+    <footer>copyright teguhsetiawan@2020</footer>
   </body>
-  <footer>copyright teguhsetiawan@2020</footer>
 </html>

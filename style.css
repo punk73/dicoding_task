@@ -71,3 +71,23 @@ aside {
   color: white;
   padding: 10px;
 }
+
+
+.form-wrapper {
+  width: 100%;
+  display: inline;
+}
+
+.combo {
+  padding: 5px;
+  width: 100%;
+  background-color: #00C8EB;
+  color: white;
+  border:2px solid #00C8EB;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select option {
+  padding: 5px;
+}
+
